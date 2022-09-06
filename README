@@ -24,6 +24,7 @@ clients.
 Building the wayland libraries is fairly simple, aside from libffi,
 they don't have many dependencies:
 
+    $ apt install -y doxygen xsltproc graphviz xmlto
     $ git clone https://gitlab.freedesktop.org/wayland/wayland
     $ cd wayland
     $ meson build/ --prefix=PREFIX
